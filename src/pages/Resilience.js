@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
-const Resillience = () => {
+const Resilience = () => {
   return (
     <div>
+      <Navbar />
       <h2>Resilience</h2>
     </div>
   );
 };
 
-export default Resillience;
+export default Resilience;

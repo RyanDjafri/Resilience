@@ -5,8 +5,15 @@
     padding: 0;
     box-sizing:border-box;
     font-family:"Poppins",sans-serif;
+    margin:0 1rem 0 1rem;
 }
 
+#logo-link:hover {
+    opacity:0.8;
+}
+#logo-pic {
+    transform:rotate(-90deg)
+}
 .navbar-container {
     padding:0 1.5rem 0 1.5rem;
     display:flex;
@@ -19,3 +26,42 @@
     display:flex;
     gap:1rem;
 }
+.menu-list-item a {
+    text-decoration: none;
+    color:black;
+}
+.menu-list-item a:hover {
+    color:gray;
+}
+
+.top-section {
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+}
+
+.para-right-part {
+    font-size:0.8rem;
+}
+
+.top-section {
+    width:100%;
+    height:70vh;
+    background-color:gray;
+}
+
+.left-part-container {
+    width:50%;
+}
+.right-part-container {
+    width:50%;
+}
+
+/* .mid-section {
+    width:100%;    
+    height:50vh; 
+    border-radius: 3rem;
+    background-color:gainsboro;
+    position:absolute;
+   
+} */
